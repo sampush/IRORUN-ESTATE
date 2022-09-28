@@ -1,0 +1,15 @@
+.res-body{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.res-h{
+    padding:0 120px  ;
+    margin: 20px;
+}
+.res-m{
+    background-color: #fff;
+}
