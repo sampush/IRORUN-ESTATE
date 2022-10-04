@@ -2,7 +2,7 @@ import React from "react";
 import "./Offer.css";
 import logo from "../../image/asplash.jpg";
 import lom4 from "../../image/house4.png";
-import Public from "../Public/Public";
+import Public from "./Public/Public";
 
 function Offer() {
   return (
@@ -12,7 +12,7 @@ function Offer() {
       </div>
       
 
-      <div className=" groom">
+      <div className="groom">
         <div className="koop">
           <img src={logo} alt="" />
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import House from "../Houses/House";
+import House from "./Houses/House";
 import "./Residence.css";
 import house from "../house-img.jpg";
 

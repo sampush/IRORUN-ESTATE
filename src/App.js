@@ -5,6 +5,8 @@ import Offer from './Component/Offer/Offer';
 import Dream from './Component/Dream/Dream'
 import Residence from './Component/Residences/Residence';
 import Navbarr from './Component/Navbarr/Navbarr';
+import Footer from './Component/Footer/Footer';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -17,6 +19,7 @@ function App() {
       <Offer/>
       <Residence/>
       <Customer/>
+      <Footer/>
     </div>
   );
 }
