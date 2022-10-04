@@ -1,0 +1,31 @@
+/* .bg-myRed{
+ background-color: aquamarine;
+
+} */
+.bts{
+    /* display: inline-block; */
+    background-color: #100358;
+    border: none;
+    border-radius: 7px;
+    color:#fff;
+    padding: 10px ;
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+
+.me-niv{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    font-size: 20px ;
+}
+.img-Nav{
+    width: 90px;
+    height: 80px;
+    padding: 10px;
+}
+.Nav-Links{
+    color: black;
+}

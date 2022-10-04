@@ -6,13 +6,17 @@ import Customer from "../Customer/Customer";
 import Offer from "../Offer/Offer";
 import Residence from "../Residences/Residence";
 import Dream from "../Dream/Dream";
+import "./Navbarr.css";
+import "bootstrap/dist/css/bootstrap.css";
+import Logo from '../../image/logo3.png'
 
 function Navbarr() {
   return (
     <Router>
       <div>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="info" variant="dark">
           <Container>
+            <img src ={Logo} alt="" className="img-Nav" />
             <Navbar.Brand href="#home">IRORUN ESTATE</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -20,7 +24,7 @@ function Navbarr() {
                 <Nav.Link href="#"></Nav.Link>
                 <Nav.Link href="#"></Nav.Link>
               </Nav>
-              <Nav>
+              <Nav className="me-niv">
                 <Nav.Link as={Link} to={"/Customer"}>
                   Customer
                 </Nav.Link>
@@ -33,6 +37,11 @@ function Navbarr() {
                 <Nav.Link as={Link} to={"/Dream"}>
                   Dream
                 </Nav.Link>
+                <Nav.Link>
+                  <button className="bts">
+                     Register
+                  </button>
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
@@ -40,10 +49,10 @@ function Navbarr() {
       </div>
       <div>
         <Routes>
-        <Route path='/Customer' element={<Customer/>} />
-        <Route path='/Offer' element={<Offer/>} />
-        <Route path='/Residence' element={<Residence/>} />
-        <Route path='/Dream' element={<Dream/>} />
+          <Route path="/Customer" element={<Customer />} />
+          <Route path="/Offer" element={<Offer />} />
+          <Route path="/Residence" element={<Residence />} />
+          <Route path="/Dream" element={<Dream />} />
         </Routes>
       </div>
     </Router>

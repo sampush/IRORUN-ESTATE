@@ -7,9 +7,11 @@ import Residence from './Component/Residences/Residence';
 import Navbarr from './Component/Navbarr/Navbarr';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function App() {
   return (
     <div>
+     
       <Navbarr/>
       <Dream/>
       <Offer/>
