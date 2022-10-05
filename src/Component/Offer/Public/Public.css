@@ -1,22 +1,21 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    outline: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
 }
-.splin{
-    display: flex;
-    gap: 10px;
-  }
-.mime{
-    align-items: center;
-    justify-content: center;
-    
-   
-  
-    
+
+.splin {
+  display: flex;
+  gap: 10px;
 }
-.mine p{
-    text-align: center;
-    padding-left: 60px;
+
+.mime {
+  align-items: center;
+  justify-content: center;
+}
+
+.mine p {
+  text-align: center;
+  padding-left: 60px;
 }
